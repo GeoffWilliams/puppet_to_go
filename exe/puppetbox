@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
+require 'puppetbox/packaging'
 
 puts "PuPpEtBoX :D"
+Puppetbox::Packaging.create
